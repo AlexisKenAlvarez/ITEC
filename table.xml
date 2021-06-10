@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<games_table>
+  <game>
+    <name>Game: Valorant</name>
+    <published>Published:</published>
+    <date> June 2 2002 </date>
+    <dev>Developer:</dev>
+    <devteam> Riot Games</devteam>
+    <gb>Total size:</gb>
+    <gbsize> 14.4 GB  </gbsize>
+  </game>
+
+  <game>
+    <name>Game: Counter Strike: Global Offensive</name>
+    <published>Published:</published>
+    <date> August 21 2012</date>
+    <dev>Developer:</dev>
+    <devteam> Valve Corporation and Hidden Path Entertainment</devteam>
+    <gb>Total size:</gb>
+    <gbsize> 15 GB</gbsize>
+  </game>
+
+  <game>
+    <name>Game: Growtopia</name>
+    <published>Published:</published>
+    <date> Novemebr 30 2012</date>
+    <dev>Developer:</dev>
+    <devteam> Ubisoft, Robinson Technologies, Hamumu Software</devteam>
+    <gb>Total size:</gb>
+    <gbsize> unknown</gbsize>
+  </game>
+
+  <game>
+    <name>Game: Dota 2</name>
+    <published>Published:</published>
+    <date> July 9, 2013</date>
+    <dev>Developer:</dev>
+    <devteam> Valve Corporation</devteam>
+    <gb>Total size:</gb>
+    <gbsize> 15 GB</gbsize>
+  </game>
+
+  <game>
+    <name>Game: Minecraft</name>
+    <published>Published:</published>
+    <date> November 18 2011</date>
+    <dev>Developer:</dev>
+    <devteam> Mojang Studios</devteam>
+    <gb>Total size:</gb>
+    <gbsize> 1-2 GB</gbsize>
+  </game>
+
+</games_table>
