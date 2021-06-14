@@ -170,7 +170,7 @@ a {
   color: #ff4655;
 }
 
-.nav_home {
+.nav_home, .nav_about, .nav_contact, .nav_faq {
   transition: 0.2s ease-out;
   border: 2px solid transparent;
   border-width: 0px 0px;
@@ -178,7 +178,7 @@ a {
 
 .nav_home:hover, .nav_about:hover, .nav_contact:hover, .nav_faq:hover {
   border: 2px solid #ff4655;
-  transition: 0.2s ease-in;
+  transition: 0.2s ease;
   border-width: 5px 0px;
   border-style:double;
 }
