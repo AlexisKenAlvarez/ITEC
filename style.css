@@ -224,6 +224,23 @@ a {
   cursor: pointer;
 }
 
+.up_arrow {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 2%;
+  bottom: 3%;
+  z-index: 5;
+  background-image: url(img/arrow_up.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(46%) sepia(87%) saturate(4753%) hue-rotate(334deg) brightness(116%) contrast(103%);
+  transform: rotate(180deg);
+  cursor: pointer;
+  opacity: 0;
+  transition: 1s ease;
+}
 
 
 

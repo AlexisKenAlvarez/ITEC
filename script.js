@@ -5,12 +5,30 @@ let dota = document.getElementById("dota_hide");
 let cs = document.getElementById("cs_hide");
 let gt = document.getElementById("gt_hide");
 let previeW = document.getElementById("preview_button");
+let arrowTopper = document.getElementById("arrowUp");
+
+
+window.addEventListener('scroll', () => {
+  console.log(pageYOffset);
+  const arrowTop = document.getElementById("arrowUp");
+  if (pageYOffset > 50) {
+    arrowTop.style.opacity = "1";
+    arrowTop.style.transform = "rotate(-90deg)";
+  } else {
+    arrowTop.style.opacity = "0";
+    arrowTop.style.transform = "rotate(180deg)";
+  }
+});
+
+arrowTopper.addEventListener('click', () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+
 
 function entersite() {
   location.href = "xml_table.html";
 }
-
-
 
 valo.addEventListener('mouseover', () => {
   container.style.backgroundImage = "url('img/valorant.jpg')";
