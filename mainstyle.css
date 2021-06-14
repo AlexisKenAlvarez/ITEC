@@ -39,6 +39,7 @@ body > * {
 
 main {
   min-width: 600px;
+  max-width: 2900px;
   width: 100%;
   margin: 100px auto -190px;
   min-height: 800px;
@@ -271,7 +272,6 @@ a {
   background-repeat: no-repeat;
   filter: invert(46%) sepia(87%) saturate(4753%) hue-rotate(334deg) brightness(116%) contrast(103%);
   transform: rotate(180deg);
-  cursor: pointer;
   opacity: 0;
   transition: 1s ease;
 }

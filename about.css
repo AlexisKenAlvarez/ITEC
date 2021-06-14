@@ -260,7 +260,7 @@ footer .footer_div{
   flex-shrink: 1;
   display: flex;
   justify-content: space-around;
-  max-width: 1900px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
 }
