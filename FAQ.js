@@ -5,8 +5,8 @@ let faqOneAnswer = document.getElementById("firstQuest");
 let firstDiv = document.getElementById("firstAnsDiv");
 
 faqFirstTitle.addEventListener('click', () => {
-  if (firstDiv.style.height == "" || firstDiv.style.height == "0px") {
-    firstDiv.style.height = "250px";
+  if (firstDiv.style.minHeight == "" || firstDiv.style.minHeight == "0px") {
+    firstDiv.style.minHeight = "330px";
     faqOneAnswer.style.fontSize = "25px";
     faqOneAnswer.style.padding = "10px";
     faqFirstTitle.style.animationName = "rgbb";
@@ -14,7 +14,7 @@ faqFirstTitle.addEventListener('click', () => {
     faqFirstTitle.style.animationDuration = "3s";
     firstDiv.style.padding = "15px";
   } else {
-    firstDiv.style.height = "0px";
+    firstDiv.style.minHeight = "0px";
     faqOneAnswer.style.fontSize = "0px";
     faqFirstTitle.style.animationName = "";
     faqFirstTitle.style.animationIterationCount = "";
@@ -28,8 +28,8 @@ let faqTwoAnswer = document.getElementById("secondQuest");
 let secondDiv = document.getElementById("secondAnsDiv");
 
 faqSecondTitle.addEventListener('click', () => {
-  if (secondDiv.style.height == "" || secondDiv.style.height == "0px") {
-    secondDiv.style.height = "250px";
+  if (secondDiv.style.minHeight == "" || secondDiv.style.minHeight == "0px") {
+    secondDiv.style.minHeight = "150px";
     faqTwoAnswer.style.fontSize = "25px";
     faqTwoAnswer.style.padding = "10px";
     faqSecondTitle.style.animationName = "rgbb";
@@ -37,7 +37,7 @@ faqSecondTitle.addEventListener('click', () => {
     faqSecondTitle.style.animationDuration = "3s";
     secondDiv.style.padding = "15px";
   } else {
-    secondDiv.style.height = "0px";
+    secondDiv.style.minHeight = "0px";
     faqTwoAnswer.style.fontSize = "0px";
     faqSecondTitle.style.animationName = "";
     faqSecondTitle.style.animationIterationCount = "";

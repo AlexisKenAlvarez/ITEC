@@ -124,15 +124,17 @@ header {
 }
 
 .faq1 {
-  background-color: #ff4655;
+  box-shadow: 3px 3px 5px black;
   color: #FFFAF0;
   padding: 10px 10px 10px 20px;
   cursor: pointer;
-  border-bottom: 5px outset red;
+  margin-top: 10px;
   transition: 0.2s ease;
+  background-image: linear-gradient(160deg, rgb(106,23,52), rgb(208,81,64))
 }
 .ans1 {
-  height: 0px;
+  height: 0;
+  min-height: 0px;
   background-image: linear-gradient(160deg, #F7516F, #FED892);
   transition: 0.2s ease;
   color: #FFFAF0;
@@ -144,6 +146,10 @@ header {
   font-size: 0px;
 }
 
+#secondQuest {
+  font-size: 0px;
+}
+
 .faq1:hover {
   transform: scale(1.01);
   transition: 0.2s ease;
@@ -151,17 +157,17 @@ header {
 
 
 @keyframes rgbb{
-  0% {color: #F7516F;}
-  10% {color: #FED892;}
-  20% {color: #F7516F;}
-  30% {color: #FED892;}
-  40% {color: #F7516F;}
-  50% {color: #FED892;}
-  60% {color: #F7516F;}
-  70% {color: #FED892;}
-  80% {color: #F7516F;}
-  90% {color: #FED892;}
-  100% {color: #F7516F;}
+  0% {color: rgb(42,0,46);}
+  10% {color: rgb(208,81,64);}
+  20% {color: rgb(42,0,46);}
+  30% {color: rgb(208,81,64);}
+  40% {color: rgb(42,0,46);}
+  50% {color: rgb(208,81,64);}
+  60% {color: rgb(42,0,46);}
+  70% {color: rgb(208,81,64);}
+  80% {color: rgb(42,0,46);}
+  90% {color: rgb(208,81,64);}
+  100% {color: rgb(42,0,46);}
 }
 
 
