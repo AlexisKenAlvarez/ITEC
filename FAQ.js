@@ -3,6 +3,11 @@ let arrowTopper = document.getElementById("arrowUp");
 let faqFirstTitle = document.getElementById("ques1");
 let faqOneAnswer = document.getElementById("firstQuest");
 let firstDiv = document.getElementById("firstAnsDiv");
+let toggleContainer1 = document.getElementById("toggleOne");
+let horiLine1 = document.getElementById("horizontalOne");
+
+let toggleContainer2 = document.getElementById("toggleTwo");
+let horiLine2 = document.getElementById("horizontalTwo");
 
 faqFirstTitle.addEventListener('click', () => {
   if (firstDiv.style.minHeight == "" || firstDiv.style.minHeight == "0px") {
@@ -13,6 +18,8 @@ faqFirstTitle.addEventListener('click', () => {
     faqFirstTitle.style.animationIterationCount = "infinite";
     faqFirstTitle.style.animationDuration = "3s";
     firstDiv.style.padding = "15px";
+    toggleContainer1.style.transform = "rotate(90deg)";
+    horiLine1.style.opacity = "0";
   } else {
     firstDiv.style.minHeight = "0px";
     faqOneAnswer.style.fontSize = "0px";
@@ -20,6 +27,8 @@ faqFirstTitle.addEventListener('click', () => {
     faqFirstTitle.style.animationIterationCount = "";
     faqFirstTitle.style.animationDuration = "";
     firstDiv.style.padding = "";
+    toggleContainer1.style.transform = "rotate(0deg)";
+    horiLine1.style.opacity = "1";
   }
 });
 
@@ -36,6 +45,8 @@ faqSecondTitle.addEventListener('click', () => {
     faqSecondTitle.style.animationIterationCount = "infinite";
     faqSecondTitle.style.animationDuration = "3s";
     secondDiv.style.padding = "15px";
+    toggleContainer2.style.transform = "rotate(90deg)";
+    horiLine2.style.opacity = "0";
   } else {
     secondDiv.style.minHeight = "0px";
     faqTwoAnswer.style.fontSize = "0px";
@@ -43,8 +54,14 @@ faqSecondTitle.addEventListener('click', () => {
     faqSecondTitle.style.animationIterationCount = "";
     faqSecondTitle.style.animationDuration = "";
     secondDiv.style.padding = "";
+    toggleContainer2.style.transform = "rotate(0deg)";
+    horiLine2.style.opacity = "1";
   }
 });
+
+
+
+
 
 
 
