@@ -89,7 +89,6 @@ faqSecondTitle.addEventListener('click', () => {
 // SCROLL TOP BUTTON
 
 window.addEventListener('scroll', () => {
-  console.log(pageYOffset);
   const arrowTop = document.getElementById("arrowUp");
   if (pageYOffset > 50) {
     arrowTop.style.opacity = "1";
