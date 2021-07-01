@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" contents="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="FAQ.css" type="text/css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -16,14 +16,14 @@
 
   <!-- HEADER -->
   <header>
-    <div class="header_div">
+    <div class="header_div" id="header">
       <a href="index.html" >
         <h3 class="main-link">
           THE <b class="bold_games">GAME</b>
         </h3>
       </a>
 
-      <ul class="nav_list">
+      <ul class="nav_list" id="navList">
         <a href="index.html"><li class="nav_home">Home</li></a>
         <a href="xml_table.html"><li class="nav_about">Preview</li></a>
         <a href="about.html"><li class="nav_contact">Dev</li></a>
@@ -31,7 +31,7 @@
       </ul>
 
       <!-- BURGER DIV FOR PHONE -->
-      <div class="burger">
+      <div class="burger" id="burgerButton">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
@@ -44,41 +44,27 @@
     <div class="faqWrapper">
       <div class="faqUpper">
         <h1 class="faqHeader">
-          FREQUENTLY ASKED QUESTIONS
+          We're here to help
         </h1>
       </div>
       <div class="faqLower">
 
         <!-- FIRST QUEST AND ASNWER -->
         <div class="faq1" id="ques1">
-          <h1>
+          <h2>
             ▪ What is the main purpose of this site?
-          </h1>
-          <div class="toggle" id="toggleOne">
-            <div class="vertical" id="verticalOne">
-
-            </div>
-            <div class="horizontal" id="horizontalOne">
-
-            </div>
-          </div>
+          </h2>
+          <div class="toggle" id="toggleOne"></div>
         </div>
         <div class="ans1" id="firstAnsDiv">
-          <h2 id="firstQuest">The main purpose of this site is to showcase the games that I've played through out the years. The most fascinating games and addictive games I played where I also encountered different kids of person. Some became my friends, some became my foes, some became my lover and more. These good memories I gathered from these games will be forever treasured within my heart.</h2>
+          <h4 id="firstQuest">The main purpose of this site is to showcase the games that I've played through out the years. The most fascinating games and addictive games I played where I also encountered different kids of person. Some became my friends, some became my foes, some became my lover and more. These good memories I gathered from these games will be forever treasured within my heart.</h4>
         </div>
 
         <!-- SECOND QUEST AND ASNWER -->
         <div class="faq1" id="ques2">
-          <h1>
-            ▪ Are you the only one who developed this website?</h1>
-            <div class="toggleTwo" id="toggleTwo">
-              <div class="vertical">
-
-              </div>
-              <div class="horizontal" id="horizontalTwo">
-
-              </div>
-            </div>
+          <h2>
+            ▪ Are you the only one who developed this website?</h2>
+            <div class="toggleTwo" id="toggleTwo"></div>
         </div>
         <div class="ans1" id="secondAnsDiv">
           <h2 id="secondQuest">
@@ -106,7 +92,7 @@
           </ul>
 
           <ul class="ul_head">
-            <li class="head-text">INFORMATION</li>
+            <li class="head-text" >INFORMATION</li>
             <li><a href="about.html" class="info_footer">Developer</a></li>
             <li><a href="" class="info_footer">Privacy Policy</a></li>
             <li><a href="FAQ.html" class="info_footer">FAQ</a></li>

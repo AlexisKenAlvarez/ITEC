@@ -99,3 +99,14 @@ gt.addEventListener('mouseout', () => {
   container.style.animation = "";
   container.style.animationIterationCount = "infinite";
 });
+
+const navSlide = () => {
+  const burger = document.getElementById("burgerButton");
+  const navList = document.getElementById("navList");
+
+  burger.addEventListener('click', () => {
+    navList.classList.toggle('nav_list-active');
+  });
+};
+
+navSlide();
